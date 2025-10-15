@@ -1,0 +1,95 @@
+2025-10-15 22:37:49,986 [INFO] Starting server on 0.0.0.0:2121 with base_dir=/Users/krutarthpatel/Desktop/Python projects/Ftp/data
+2025-10-15 22:37:49,986 [INFO] concurrency model: async
+2025-10-15 22:37:49,986 [INFO] masquerade (NAT) address: None
+2025-10-15 22:37:49,986 [INFO] passive ports: None
+2025-10-15 22:37:49,986 [INFO] >>> starting FTP server on 0.0.0.0:2121, pid=71576 <<<
+2025-10-15 22:43:29,349 [INFO] 127.0.0.1:54889-[] FTP session opened (connect)
+2025-10-15 22:43:29,349 [INFO] Connection from 127.0.0.1:54889
+2025-10-15 22:43:29,350 [INFO] 127.0.0.1:54889-[teacher1] USER 'teacher1' logged in.
+2025-10-15 22:43:29,350 [INFO] Login: teacher1 from 127.0.0.1:54889
+2025-10-15 22:43:29,350 [INFO] 127.0.0.1:54889-[teacher1] CWD /Users/krutarthpatel/Desktop/Python projects/Ftp/data/assignments 250
+2025-10-15 22:43:29,351 [INFO] STOR attempt by teacher1: FTP path=/Users/krutarthpatel/Desktop/Python -> real=/Users/krutarthpatel/Desktop/Python projects/Ftp/data/Users/krutarthpatel/Desktop/Python
+2025-10-15 22:43:29,351 [INFO] 127.0.0.1:54889-[teacher1] STOR /Users/krutarthpatel/Desktop/Python projects/Ftp/data/assignments/assignment1.txt completed=1 bytes=37 seconds=0.0
+2025-10-15 22:43:29,351 [INFO] 127.0.0.1:54889-[teacher1] FTP session closed (disconnect).
+2025-10-15 22:43:29,351 [INFO] Disconnect from 127.0.0.1:54889
+2025-10-15 22:48:53,030 [INFO] 127.0.0.1:54901-[] FTP session opened (connect)
+2025-10-15 22:48:53,031 [INFO] Connection from 127.0.0.1:54901
+2025-10-15 22:49:04,027 [INFO] 127.0.0.1:54901-[teacher1] USER 'teacher1' logged in.
+2025-10-15 22:49:04,027 [INFO] Login: teacher1 from 127.0.0.1:54901
+2025-10-15 22:49:08,233 [INFO] 127.0.0.1:54901-[teacher1] CWD /Users/krutarthpatel/Desktop/Python projects/Ftp/data/assignments 250
+2025-10-15 22:50:20,487 [INFO] 127.0.0.1:54906-[] FTP session opened (connect)
+2025-10-15 22:50:20,487 [INFO] Connection from 127.0.0.1:54906
+2025-10-15 22:50:20,499 [INFO] 127.0.0.1:54906-[teacher1] USER 'teacher1' logged in.
+2025-10-15 22:50:20,499 [INFO] Login: teacher1 from 127.0.0.1:54906
+2025-10-15 22:50:20,502 [INFO] 127.0.0.1:54906-[teacher1] CWD /Users/krutarthpatel/Desktop/Python projects/Ftp/data/assignments 250
+2025-10-15 22:50:20,503 [INFO] RETR by teacher1: FTP path=/Users/krutarthpatel/Desktop/Python -> real=/Users/krutarthpatel/Desktop/Python projects/Ftp/data/Users/krutarthpatel/Desktop/Python
+2025-10-15 22:50:20,504 [INFO] 127.0.0.1:54906-[teacher1] RETR /Users/krutarthpatel/Desktop/Python projects/Ftp/data/assignments/assignment1.txt completed=1 bytes=38 seconds=0.001
+2025-10-15 22:51:20,508 [INFO] 127.0.0.1:54906-[teacher1] FTP session closed (disconnect).
+2025-10-15 22:51:20,508 [INFO] Disconnect from 127.0.0.1:54906
+2025-10-15 22:51:53,947 [INFO] 127.0.0.1:54915-[] FTP session opened (connect)
+2025-10-15 22:51:53,947 [INFO] Connection from 127.0.0.1:54915
+2025-10-15 22:51:53,951 [INFO] 127.0.0.1:54915-[alice] USER 'alice' logged in.
+2025-10-15 22:51:53,952 [INFO] Login: alice from 127.0.0.1:54915
+2025-10-15 22:52:01,549 [INFO] 127.0.0.1:54915-[alice] CWD /Users/krutarthpatel/Desktop/Python projects/Ftp/data/assignments 250
+2025-10-15 22:52:11,899 [INFO] 127.0.0.1:54915-[alice] CWD /Users/krutarthpatel/Desktop/Python projects/Ftp/data/submissions 250
+2025-10-15 22:52:15,529 [INFO] 127.0.0.1:54924-[] FTP session opened (connect)
+2025-10-15 22:52:15,529 [INFO] Connection from 127.0.0.1:54924
+2025-10-15 22:52:15,537 [INFO] 127.0.0.1:54924-[alice] USER 'alice' logged in.
+2025-10-15 22:52:15,537 [INFO] Login: alice from 127.0.0.1:54924
+2025-10-15 22:52:15,539 [INFO] 127.0.0.1:54924-[alice] CWD /Users/krutarthpatel/Desktop/Python projects/Ftp/data/submissions 250
+2025-10-15 22:52:31,976 [INFO] 127.0.0.1:54924-[alice] CWD /Users/krutarthpatel/Desktop/Python projects/Ftp/data/submissions/alice 250
+2025-10-15 22:52:33,315 [INFO] 127.0.0.1:54915-[alice] CWD /Users/krutarthpatel/Desktop/Python projects/Ftp/data/submissions/alice 250
+2025-10-15 22:52:44,233 [INFO] 127.0.0.1:54915-[alice] CWD /Users/krutarthpatel/Desktop/Python projects/Ftp/data/submissions/bob 250
+2025-10-15 22:53:41,479 [INFO] 127.0.0.1:54915-[alice] CWD /Users/krutarthpatel/Desktop/Python projects/Ftp/data/submissions 250
+2025-10-15 22:53:55,958 [INFO] 127.0.0.1:54939-[] FTP session opened (connect)
+2025-10-15 22:53:55,958 [INFO] Connection from 127.0.0.1:54939
+2025-10-15 22:53:55,960 [INFO] 127.0.0.1:54939-[alice] USER 'alice' logged in.
+2025-10-15 22:53:55,960 [INFO] Login: alice from 127.0.0.1:54939
+2025-10-15 22:54:01,976 [INFO] 127.0.0.1:54939-[alice] FTP session closed (disconnect).
+2025-10-15 22:54:01,977 [INFO] Disconnect from 127.0.0.1:54939
+2025-10-15 22:54:05,781 [INFO] 127.0.0.1:54915-[alice] CWD /Users/krutarthpatel/Desktop/Python projects/Ftp/data/submissions/alice 250
+2025-10-15 22:54:08,237 [INFO] 127.0.0.1:54901-[teacher1] Control connection timed out.
+2025-10-15 22:54:08,237 [INFO] 127.0.0.1:54901-[teacher1] FTP session closed (disconnect).
+2025-10-15 22:54:08,237 [INFO] Disconnect from 127.0.0.1:54901
+2025-10-15 22:54:13,152 [INFO] 127.0.0.1:54924-[alice] CWD /Users/krutarthpatel/Desktop/Python projects/Ftp/data/submissions/bob 250
+2025-10-15 22:54:18,269 [INFO] 127.0.0.1:54924-[alice] CWD /Users/krutarthpatel/Desktop/Python projects/Ftp/data/submissions/alice 250
+2025-10-15 22:54:29,334 [INFO] 127.0.0.1:54946-[] FTP session opened (connect)
+2025-10-15 22:54:29,334 [INFO] Connection from 127.0.0.1:54946
+2025-10-15 22:54:29,350 [INFO] 127.0.0.1:54946-[teacher1] USER 'teacher1' logged in.
+2025-10-15 22:54:29,351 [INFO] Login: teacher1 from 127.0.0.1:54946
+2025-10-15 22:54:29,352 [INFO] 127.0.0.1:54946-[teacher1] CWD /Users/krutarthpatel/Desktop/Python projects/Ftp/data/submissions 250
+2025-10-15 22:54:31,417 [INFO] 127.0.0.1:54946-[teacher1] CWD /Users/krutarthpatel/Desktop/Python projects/Ftp/data/submissions/bob 250
+2025-10-15 22:54:32,300 [INFO] 127.0.0.1:54946-[teacher1] CWD /Users/krutarthpatel/Desktop/Python projects/Ftp/data/submissions/alice 250
+2025-10-15 22:54:39,374 [INFO] 127.0.0.1:54915-[alice] FTP session closed (disconnect).
+2025-10-15 22:54:39,374 [INFO] Disconnect from 127.0.0.1:54915
+2025-10-15 22:54:47,662 [INFO] 127.0.0.1:54953-[] FTP session opened (connect)
+2025-10-15 22:54:47,662 [INFO] Connection from 127.0.0.1:54953
+2025-10-15 22:54:47,665 [INFO] 127.0.0.1:54953-[alice] USER 'alice' logged in.
+2025-10-15 22:54:47,665 [INFO] Login: alice from 127.0.0.1:54953
+2025-10-15 22:55:04,307 [INFO] 127.0.0.1:54924-[alice] CWD /Users/krutarthpatel/Desktop/Python projects/Ftp/data/submissions 250
+2025-10-15 22:55:09,233 [INFO] 127.0.0.1:54924-[alice] CWD /Users/krutarthpatel/Desktop/Python projects/Ftp/data/submissions/alice 250
+2025-10-15 22:56:09,253 [INFO] 127.0.0.1:54924-[alice] FTP session closed (disconnect).
+2025-10-15 22:56:09,253 [INFO] Disconnect from 127.0.0.1:54924
+2025-10-15 22:58:49,814 [INFO] 127.0.0.1:54966-[] FTP session opened (connect)
+2025-10-15 22:58:49,814 [INFO] Connection from 127.0.0.1:54966
+2025-10-15 22:58:49,816 [INFO] 127.0.0.1:54966-[bob] USER 'bob' logged in.
+2025-10-15 22:58:49,816 [INFO] Login: bob from 127.0.0.1:54966
+2025-10-15 22:59:03,663 [INFO] 127.0.0.1:54966-[bob] CWD /Users/krutarthpatel/Desktop/Python projects/Ftp/data/assignments 250
+2025-10-15 22:59:17,879 [INFO] 127.0.0.1:54975-[] FTP session opened (connect)
+2025-10-15 22:59:17,879 [INFO] Connection from 127.0.0.1:54975
+2025-10-15 22:59:17,886 [INFO] 127.0.0.1:54975-[bob] USER 'bob' logged in.
+2025-10-15 22:59:17,887 [INFO] Login: bob from 127.0.0.1:54975
+2025-10-15 22:59:17,890 [INFO] 127.0.0.1:54975-[bob] CWD /Users/krutarthpatel/Desktop/Python projects/Ftp/data/assignments 250
+2025-10-15 22:59:32,304 [INFO] 127.0.0.1:54946-[teacher1] Control connection timed out.
+2025-10-15 22:59:32,304 [INFO] 127.0.0.1:54946-[teacher1] FTP session closed (disconnect).
+2025-10-15 22:59:32,304 [INFO] Disconnect from 127.0.0.1:54946
+2025-10-15 22:59:38,968 [INFO] 127.0.0.1:54966-[bob] CWD /Users/krutarthpatel/Desktop/Python projects/Ftp/data/submissions 250
+2025-10-15 22:59:47,685 [INFO] 127.0.0.1:54953-[alice] Control connection timed out.
+2025-10-15 22:59:47,686 [INFO] 127.0.0.1:54953-[alice] FTP session closed (disconnect).
+2025-10-15 22:59:47,686 [INFO] Disconnect from 127.0.0.1:54953
+2025-10-15 22:59:52,463 [INFO] 127.0.0.1:54966-[bob] CWD /Users/krutarthpatel/Desktop/Python projects/Ftp/data/submissions/bob 250
+2025-10-15 23:00:19,615 [INFO] 127.0.0.1:54975-[bob] FTP session closed (disconnect).
+2025-10-15 23:00:19,615 [INFO] Disconnect from 127.0.0.1:54975
+2025-10-15 23:00:43,753 [INFO] received interrupt signal
+2025-10-15 23:00:43,753 [INFO] >>> shutting down FTP server, pid=71576, 2 open socket(s) <<<
+2025-10-15 23:00:43,754 [INFO] 127.0.0.1:54966-[bob] FTP session closed (disconnect).
